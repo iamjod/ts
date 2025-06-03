@@ -47,3 +47,7 @@ document.addEventListener('touchend', e => {
     touchEndX = e.changedTouches[0].screenX;
     handleGesture();
 });
+
+function goHome() {
+    window.location.href = "index.html";
+}
